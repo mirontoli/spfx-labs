@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://takana17.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "72a93fae-a06e-4c82-a1f8-211c5c1deb69": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spfx009Ext": {
+      "pageUrl": "https://takana17.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "72a93fae-a06e-4c82-a1f8-211c5c1deb69": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
